@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZK6EVWQJJV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-ZK6EVWQJJV');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GALI LIKITHA</title>
@@ -47,8 +57,15 @@
         }
 
         @keyframes twinkle {
-            0%, 100% { opacity: 0; }
-            50% { opacity: 1; }
+
+            0%,
+            100% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
         }
 
         .navbar {
@@ -128,7 +145,7 @@
             transform: translateY(-3px);
         }
 
-        
+
         /* Updated Hero Section with Profile Picture */
         .hero {
             min-height: 100vh;
@@ -137,7 +154,7 @@
             justify-content: center;
             padding: 6rem 2rem;
             background: linear-gradient(rgba(10, 11, 12, 0.8), rgba(10, 11, 12, 0.8)),
-                        radial-gradient(circle at center, var(--secondary) 0%, transparent 70%);
+                radial-gradient(circle at center, var(--secondary) 0%, transparent 70%);
         }
 
         .hero-content {
@@ -145,11 +162,12 @@
             flex-direction: column;
             align-items: center;
             gap: 0.5rem;
-            font-size: 2.2rem; /* Adjust the font size as desired */
+            font-size: 2.2rem;
+            /* Adjust the font size as desired */
 
         }
 
-        
+
 
         .know-more-btn {
             margin-top: 2rem;
@@ -220,81 +238,81 @@
 
 
         .card-section {
-        background: rgba(22, 28, 36, 0.95);
-        border-radius: 1rem;
-        padding: 2rem;
-        margin: 1rem 0;
-        width: 100%;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
+            background: rgba(22, 28, 36, 0.95);
+            border-radius: 1rem;
+            padding: 2rem;
+            margin: 1rem 0;
+            width: 100%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
 
-    .card-header {
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-        margin-bottom: 1.5rem;
-    }
+        .card-header {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
 
-    .card-title {
-        color: #3a0ca3;
-        font-size: 1.5rem;
-        font-weight: 600;
-        margin: 0;
-    }
+        .card-title {
+            color: #3a0ca3;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin: 0;
+        }
 
-    .card-subtitle {
-        color: #a0a0a0;
-        font-size: 1rem;
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-    }
+        .card-subtitle {
+            color: #a0a0a0;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
 
-    .card-date {
-        color: #a0a0a0;
-        font-size: 0.9rem;
-    }
+        .card-date {
+            color: #a0a0a0;
+            font-size: 0.9rem;
+        }
 
-    .card-content {
-        color: #f8f9fa;
-    }
+        .card-content {
+            color: #f8f9fa;
+        }
 
-    .experience-list {
-        list-style: none;
-        padding: 0;
-        margin: 1rem 0;
-    }
+        .experience-list {
+            list-style: none;
+            padding: 0;
+            margin: 1rem 0;
+        }
 
-    .experience-list li {
-        margin-bottom: 0.8rem;
-        line-height: 1.6;
-        padding-left: 1.5rem;
-        position: relative;
-    }
+        .experience-list li {
+            margin-bottom: 0.8rem;
+            line-height: 1.6;
+            padding-left: 1.5rem;
+            position: relative;
+        }
 
-    .experience-list li::before {
-        content: "•";
-        color: #3a0ca3;
-        position: absolute;
-        left: 0;
-        top: 0;
-    }
+        .experience-list li::before {
+            content: "•";
+            color: #3a0ca3;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
 
-    .section-container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 2rem;
-    }
-
-    @media (max-width: 768px) {
         .section-container {
-            padding: 0 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
         }
-        
-        .card-section {
-            padding: 1.5rem;
+
+        @media (max-width: 768px) {
+            .section-container {
+                padding: 0 1rem;
+            }
+
+            .card-section {
+                padding: 1.5rem;
+            }
         }
-    }
 
 
         /* Skills Section */
@@ -335,21 +353,44 @@
         }
 
         /* HTML Icon */
-        .skill-icon.html { color: #E44D26; }
+        .skill-icon.html {
+            color: #E44D26;
+        }
+
         /* CSS Icon */
-        .skill-icon.css { color: #1572B6; }
+        .skill-icon.css {
+            color: #1572B6;
+        }
+
         /* JavaScript Icon */
-        .skill-icon.js { color: #F7DF1E; }
+        .skill-icon.js {
+            color: #F7DF1E;
+        }
+
         /* Blazor Icon */
-        .skill-icon.blazor { color: #512BD4; }
+        .skill-icon.blazor {
+            color: #512BD4;
+        }
+
         /* Java Icon */
-        .skill-icon.java { color: #007396; }
+        .skill-icon.java {
+            color: #007396;
+        }
+
         /* Python Icon */
-        .skill-icon.python { color: #3776AB; }
+        .skill-icon.python {
+            color: #3776AB;
+        }
+
         /* SQL Icon */
-        .skill-icon.sql { color: #4479A1; }
+        .skill-icon.sql {
+            color: #4479A1;
+        }
+
         /* C# Icon */
-        .skill-icon.csharp { color: #239120; }
+        .skill-icon.csharp {
+            color: #239120;
+        }
 
         /* Custom Blazor Icon */
         .blazor-icon {
@@ -488,6 +529,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="space-animation" id="stars"></div>
 
@@ -536,8 +578,13 @@
         <div class="section-container">
             <div class="card-section">
                 <div class="card-content">
-                    <p>I am a passionate Web Developer and UI/UX Designer with a keen eye for creating beautiful and functional digital experiences. With expertise in modern web technologies and design principles, I strive to build innovative solutions that make a difference.</p>
-                    <p style="margin-top: 1rem;">My journey in web development started with a curiosity for creating user-friendly interfaces, and has evolved into a deep understanding of both front-end and back-end technologies. I believe in continuous learning and staying updated with the latest industry trends.</p>
+                    <p>I am a passionate Web Developer and UI/UX Designer with a keen eye for creating beautiful and
+                        functional digital experiences. With expertise in modern web technologies and design principles,
+                        I strive to build innovative solutions that make a difference.</p>
+                    <p style="margin-top: 1rem;">My journey in web development started with a curiosity for creating
+                        user-friendly interfaces, and has evolved into a deep understanding of both front-end and
+                        back-end technologies. I believe in continuous learning and staying updated with the latest
+                        industry trends.</p>
                 </div>
             </div>
         </div>
@@ -561,8 +608,11 @@
                 <div class="card-content">
                     <ul class="experience-list">
                         <li>Worked on a Project Titled "SMARTLAW"</li>
-                        <li>Developed and implemented frontend solutions utilizing Radzen and MudBlazor component libraries. Applied Blazor framework expertise to create responsive and interactive web components</li>
-                        <li>Enhanced user interface aesthetics and functionality to improve overall application appearance .</li>
+                        <li>Developed and implemented frontend solutions utilizing Radzen and MudBlazor component
+                            libraries. Applied Blazor framework expertise to create responsive and interactive web
+                            components</li>
+                        <li>Enhanced user interface aesthetics and functionality to improve overall application
+                            appearance .</li>
                     </ul>
                 </div>
             </div>
@@ -584,7 +634,7 @@
                 <i class="fab fa-js skill-icon js"></i>
                 <h3>JavaScript</h3>
             </div>
-            
+
             <div class="skill-card">
                 <div class="blazor-icon"></div>
                 <h3>Radzen Blazor</h3>
@@ -617,21 +667,26 @@
                 <img src="Images/Project1.png" alt="Project 1" class="project-img">
                 <div class="project-info">
                     <h3>SkyScout - Real-Time Weather Explorer </h3>
-                    <p>Developed a comprehensive weather tracking and comparison web application using C# and Blazor, leveraging the Supabase database for efficient user data and credential management. SAVE favorite cities Data</p>
+                    <p>Developed a comprehensive weather tracking and comparison web application using C# and Blazor,
+                        leveraging the Supabase database for efficient user data and credential management. SAVE
+                        favorite cities Data</p>
                 </div>
             </div>
             <div class="project-card">
                 <img src="Images/Project2.png" alt="Project 2" class="project-img">
                 <div class="project-info">
                     <h3>LOGO Guessing Game</h3>
-                    <p>Developed a multiplayer web application for a logo guessing game using ASP.NET Core. Implemented user authentication and room management system using MongoDB. Integrated real-time communication with SignalR for synchronized game-play across users.</p>
+                    <p>Developed a multiplayer web application for a logo guessing game using ASP.NET Core. Implemented
+                        user authentication and room management system using MongoDB. Integrated real-time communication
+                        with SignalR for synchronized game-play across users.</p>
                 </div>
             </div>
             <div class="project-card">
                 <img src="Images/Project3.png" alt="Project 3" class="project-img">
                 <div class="project-info">
                     <h3>Fresh Harvest Market</h3>
-                    <p>Developed an e-commerce web platform for fresh produce and groceries using modern web technologies. Built responsive user interface for optimal viewing across different devices.</p>
+                    <p>Developed an e-commerce web platform for fresh produce and groceries using modern web
+                        technologies. Built responsive user interface for optimal viewing across different devices.</p>
                     <p> ** Still-in-Progress**</p>
                 </div>
             </div>
@@ -657,16 +712,19 @@
                     </div>
                     <button type="submit" class="submit-btn">Send Message</button>
                 </form>
-                
+
                 <!-- Added social icons with styling -->
                 <div style="margin-top: 2rem; display: flex; gap: 1.5rem; justify-content: center;">
-                    <a href="https://www.linkedin.com/in/likitha-gali/" target="_blank" style="color: var(--text); font-size: 1.5rem; transition: color 0.3s;">
+                    <a href="https://www.linkedin.com/in/likitha-gali/" target="_blank"
+                        style="color: var(--text); font-size: 1.5rem; transition: color 0.3s;">
                         <i class="fab fa-linkedin"></i>
                     </a>
-                    <a href="https://github.com/galilikitha123" target="_blank" style="color: var(--text); font-size: 1.5rem; transition: color 0.3s;">
+                    <a href="https://github.com/galilikitha123" target="_blank"
+                        style="color: var(--text); font-size: 1.5rem; transition: color 0.3s;">
                         <i class="fab fa-github"></i>
                     </a>
-                    <a href="mailto:likithareddy1231@gmail.com" style="color: var(--text); font-size: 1.5rem; transition: color 0.3s;">
+                    <a href="mailto:likithareddy1231@gmail.com"
+                        style="color: var(--text); font-size: 1.5rem; transition: color 0.3s;">
                         <i class="fas fa-envelope"></i>
                     </a>
                     <a href="tel:+91-9182221948" style="color: var(--text); font-size: 1.5rem; transition: color 0.3s;">
@@ -682,28 +740,28 @@
         function createStars() {
             const container = document.getElementById('stars');
             const starCount = 200;
-            
+
             container.innerHTML = '';
-            
+
             for (let i = 0; i < starCount; i++) {
                 const star = document.createElement('div');
                 star.className = 'star';
-                
+
                 const x = Math.random() * 100;
                 const y = Math.random() * 100;
-                
+
                 // Random size
                 const size = Math.random() * 2;
-                
+
                 // Random duration
                 const duration = 2 + Math.random() * 3;
-                
+
                 star.style.left = `${x}%`;
                 star.style.top = `${y}%`;
                 star.style.width = `${size}px`;
                 star.style.height = `${size}px`;
                 star.style.setProperty('--duration', `${duration}s`);
-                
+
                 container.appendChild(star);
             }
         }
@@ -728,7 +786,7 @@
 
         // Form submission handling
         const form = document.querySelector('form');
-        form.addEventListener('submit', function(e) {
+        form.addEventListener('submit', function (e) {
             e.preventDefault();
             const formData = {
                 name: document.getElementById('name').value,
@@ -743,7 +801,7 @@
         });
 
         // Navbar background opacity on scroll
-        window.addEventListener('scroll', function() {
+        window.addEventListener('scroll', function () {
             const navbar = document.querySelector('.navbar');
             if (window.scrollY > 50) {
                 navbar.style.background = 'rgba(10, 11, 12, 0.98)';
@@ -753,4 +811,5 @@
         });
     </script>
 </body>
+
 </html>
